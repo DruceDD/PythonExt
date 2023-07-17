@@ -5,7 +5,6 @@
 num = int(input("Введите число от 2 до 100 000 для проверки: "))
 if num <= 1 or num >= 100000:
     print("Введенное число не входит в заданный диапозон!")
-# elif sum = num % num == 0 and num != 0:
 else:
     count = 0
     for i in range(2, num // 2 + 1):
