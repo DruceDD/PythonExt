@@ -27,7 +27,7 @@ class Rectangle:
 class RectanglePro(Rectangle):
     def __add__(self, other):
         sum_of_perim: int = self.get_perim() + other.get_perim()
-        side_a = self.side_a + other.side_a
+        side_a = self.side_a + other.__side_a
         side_b = sum_of_perim / 2 - side_a
         return RectanglePro(side_a, side_b)
 
